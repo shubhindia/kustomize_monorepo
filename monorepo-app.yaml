@@ -6,11 +6,11 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./eu-prod
+  path: ./eu-prod/
   prune: true
   sourceRef:
     kind: GitRepository
-    name: kustomize-monorepo
+    name: kustomize-env-monorepo
   validation: client
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta1
@@ -20,9 +20,9 @@ metadata:
   namespace: flux-system
 spec:
   interval: 5m0s
-  path: ./us-prod
+  path: ./us-prod/
   prune: true
   sourceRef:
     kind: GitRepository
-    name: kustomize-monorepo
+    name: kustomize-env-monorepo
   validation: client
