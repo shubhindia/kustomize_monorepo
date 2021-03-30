@@ -4,6 +4,6 @@ metadata:
   name: test-cm-eu-prod
   namespace: svc-bar
 data:
-  color: purple
+  color: red
   how: fairlyNice
   textmode: "true"
