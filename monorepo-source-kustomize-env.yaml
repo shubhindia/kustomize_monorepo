@@ -7,6 +7,6 @@ metadata:
 spec:
   interval: 30s
   ref:
-    branch: master
+    branch: kustomize-env
   url: https://github.com/shubhindia/kustomize_monorepo
 
